@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SWAPI-Suite" verbose="1" parallel="classes" thread-count="3">
+
+    <listeners>
+        <listener class-name="com.swapi.framework.reporting.HtmlReporter"/>
+        <listener class-name="com.swapi.framework.reporting.StatusCodeListener"/>
+    </listeners>
+
+    <test name="All-Resources">
+
+        <groups>
+            <run>
+                <include name="happy"/>
+                <include name="negative"/>
+                <include name="pagination"/>
+                <include name="performance"/>
+                <include name="security"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.swapi.tests.PlanetTest"/>
+            <class name="com.swapi.tests.StarshipTest"/>
+            <class name="com.swapi.tests.VehicleTest"/>
+            <class name="com.swapi.tests.PeopleTest"/>
+            <class name="com.swapi.tests.FilmTest"/>
+            <class name="com.swapi.tests.SpeciesTest"/>
+        </classes>
+    </test>
+</suite>
