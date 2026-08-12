@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="classes" name="Failed suite [SWAPI-Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="com.swapi.framework.reporting.HtmlReporter"/>
+    <listener class-name="com.swapi.framework.reporting.StatusCodeListener"/>
+  </listeners>
+  <test thread-count="3" parallel="classes" name="All-Resources(failed)" verbose="0">
+    <groups>
+      <run>
+        <include name="negative"/>
+        <include name="negative"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.swapi.tests.PeopleTest">
+        <methods>
+          <include name="globalSetup"/>
+          <include name="post_isRejected"/>
+        </methods>
+      </class> <!-- com.swapi.tests.PeopleTest -->
+      <class name="com.swapi.tests.StarshipTest">
+        <methods>
+          <include name="globalSetup"/>
+          <include name="post_isRejected"/>
+        </methods>
+      </class> <!-- com.swapi.tests.StarshipTest -->
+      <class name="com.swapi.tests.FilmTest">
+        <methods>
+          <include name="globalSetup"/>
+          <include name="post_isRejected"/>
+        </methods>
+      </class> <!-- com.swapi.tests.FilmTest -->
+      <class name="com.swapi.tests.SpeciesTest">
+        <methods>
+          <include name="globalSetup"/>
+          <include name="post_isRejected"/>
+        </methods>
+      </class> <!-- com.swapi.tests.SpeciesTest -->
+      <class name="com.swapi.tests.PlanetTest">
+        <methods>
+          <include name="globalSetup"/>
+          <include name="post_isRejected"/>
+        </methods>
+      </class> <!-- com.swapi.tests.PlanetTest -->
+      <class name="com.swapi.tests.VehicleTest">
+        <methods>
+          <include name="globalSetup"/>
+          <include name="post_isRejected"/>
+        </methods>
+      </class> <!-- com.swapi.tests.VehicleTest -->
+    </classes>
+  </test> <!-- All-Resources(failed) -->
+</suite> <!-- Failed suite [SWAPI-Suite] -->

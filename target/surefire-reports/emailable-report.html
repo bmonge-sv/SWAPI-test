@@ -1,0 +1,77 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">SWAPI-Suite</th></tr>
+<tr><td><a href="#t0">All-Resources</a></td><td class="num">12</td><td class="num">0</td><td class="num">0</td><td class="num attn">6</td><td class="num">7,063</td><td>negative</td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">SWAPI-Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">All-Resources &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.swapi.tests.FilmTest</td><td><a href="#m0">post_isRejected</a></td><td rowspan="1">1785377134936</td><td rowspan="1">692</td></tr><tr class="failedodd"><td rowspan="1">com.swapi.tests.PeopleTest</td><td><a href="#m1">post_isRejected</a></td><td rowspan="1">1785377134877</td><td rowspan="1">684</td></tr><tr class="failedeven"><td rowspan="1">com.swapi.tests.PlanetTest</td><td><a href="#m2">post_isRejected</a></td><td rowspan="1">1785377132514</td><td rowspan="1">1246</td></tr><tr class="failedodd"><td rowspan="1">com.swapi.tests.SpeciesTest</td><td><a href="#m3">post_isRejected</a></td><td rowspan="1">1785377135096</td><td rowspan="1">682</td></tr><tr class="failedeven"><td rowspan="1">com.swapi.tests.StarshipTest</td><td><a href="#m4">post_isRejected</a></td><td rowspan="1">1785377132514</td><td rowspan="1">1084</td></tr><tr class="failedodd"><td rowspan="1">com.swapi.tests.VehicleTest</td><td><a href="#m5">post_isRejected</a></td><td rowspan="1">1785377132515</td><td rowspan="1">1083</td></tr><tr><th colspan="4">All-Resources &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.swapi.tests.FilmTest</td><td><a href="#m6">delete_isRejected</a></td><td rowspan="1">1785377134302</td><td rowspan="1">633</td></tr><tr class="passedeven"><td><a href="#m7">put_isRejected</a></td><td rowspan="1">1785377135628</td><td rowspan="1">688</td></tr><tr class="passedodd"><td rowspan="2">com.swapi.tests.PeopleTest</td><td><a href="#m8">delete_isRejected</a></td><td rowspan="1">1785377134240</td><td rowspan="1">637</td></tr><tr class="passedodd"><td><a href="#m9">put_isRejected</a></td><td rowspan="1">1785377135562</td><td rowspan="1">681</td></tr><tr class="passedeven"><td rowspan="2">com.swapi.tests.PlanetTest</td><td><a href="#m10">delete_isRejected</a></td><td rowspan="1">1785377130145</td><td rowspan="1">2364</td></tr><tr class="passedeven"><td><a href="#m11">put_isRejected</a></td><td rowspan="1">1785377133761</td><td rowspan="1">688</td></tr><tr class="passedodd"><td rowspan="2">com.swapi.tests.SpeciesTest</td><td><a href="#m12">delete_isRejected</a></td><td rowspan="1">1785377134451</td><td rowspan="1">644</td></tr><tr class="passedodd"><td><a href="#m13">put_isRejected</a></td><td rowspan="1">1785377135779</td><td rowspan="1">711</td></tr><tr class="passedeven"><td rowspan="2">com.swapi.tests.StarshipTest</td><td><a href="#m14">delete_isRejected</a></td><td rowspan="1">1785377130145</td><td rowspan="1">2364</td></tr><tr class="passedeven"><td><a href="#m15">put_isRejected</a></td><td rowspan="1">1785377133601</td><td rowspan="1">637</td></tr><tr class="passedodd"><td rowspan="2">com.swapi.tests.VehicleTest</td><td><a href="#m16">delete_isRejected</a></td><td rowspan="1">1785377130145</td><td rowspan="1">2364</td></tr><tr class="passedodd"><td><a href="#m17">put_isRejected</a></td><td rowspan="1">1785377133602</td><td rowspan="1">698</td></tr></tbody>
+</table>
+<h2>All-Resources</h2><h3 id="m0">com.swapi.tests.FilmTest#post_isRejected</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: POST films must return 405 on a read-only API expected [405] but found [404]
+	at com.swapi.tests.AbstractResourceTest.post_isRejected(AbstractResourceTest.java:106)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:330)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1516)
+... Removed 17 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.swapi.tests.PeopleTest#post_isRejected</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: POST people must return 405 on a read-only API expected [405] but found [404]
+	at com.swapi.tests.AbstractResourceTest.post_isRejected(AbstractResourceTest.java:106)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:330)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1516)
+... Removed 17 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.swapi.tests.PlanetTest#post_isRejected</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: POST planets must return 405 on a read-only API expected [405] but found [404]
+	at com.swapi.tests.AbstractResourceTest.post_isRejected(AbstractResourceTest.java:106)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:330)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1516)
+... Removed 17 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.swapi.tests.SpeciesTest#post_isRejected</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: POST species must return 405 on a read-only API expected [405] but found [404]
+	at com.swapi.tests.AbstractResourceTest.post_isRejected(AbstractResourceTest.java:106)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:330)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1516)
+... Removed 17 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.swapi.tests.StarshipTest#post_isRejected</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: POST starships must return 405 on a read-only API expected [405] but found [404]
+	at com.swapi.tests.AbstractResourceTest.post_isRejected(AbstractResourceTest.java:106)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:330)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1516)
+... Removed 17 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.swapi.tests.VehicleTest#post_isRejected</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: POST vehicles must return 405 on a read-only API expected [405] but found [404]
+	at com.swapi.tests.AbstractResourceTest.post_isRejected(AbstractResourceTest.java:106)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:330)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1516)
+... Removed 17 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.swapi.tests.FilmTest#delete_isRejected</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.swapi.tests.FilmTest#put_isRejected</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">com.swapi.tests.PeopleTest#delete_isRejected</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">com.swapi.tests.PeopleTest#put_isRejected</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">com.swapi.tests.PlanetTest#delete_isRejected</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">com.swapi.tests.PlanetTest#put_isRejected</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">com.swapi.tests.SpeciesTest#delete_isRejected</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">com.swapi.tests.SpeciesTest#put_isRejected</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">com.swapi.tests.StarshipTest#delete_isRejected</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m15">com.swapi.tests.StarshipTest#put_isRejected</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m16">com.swapi.tests.VehicleTest#delete_isRejected</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m17">com.swapi.tests.VehicleTest#put_isRejected</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

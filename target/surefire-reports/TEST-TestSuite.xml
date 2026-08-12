@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="8.245" tests="18" errors="0" skipped="0" failures="6">
+  <properties>
+    <property name="java.specification.version" value="26"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\barbara.monge\Documents\Barb\UES\SWAPI_Automation\target\test-classes;C:\Users\barbara.monge\Documents\Barb\UES\SWAPI_Automation\target\classes;C:\Users\barbara.monge\.m2\repository\io\rest-assured\rest-assured\5.5.0\rest-assured-5.5.0.jar;C:\Users\barbara.monge\.m2\repository\org\apache\groovy\groovy\4.0.22\groovy-4.0.22.jar;C:\Users\barbara.monge\.m2\repository\org\apache\groovy\groovy-xml\4.0.22\groovy-xml-4.0.22.jar;C:\Users\barbara.monge\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\barbara.monge\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\barbara.monge\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\barbara.monge\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\barbara.monge\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\barbara.monge\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\barbara.monge\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\barbara.monge\.m2\repository\io\rest-assured\json-path\5.5.0\json-path-5.5.0.jar;C:\Users\barbara.monge\.m2\repository\org\apache\groovy\groovy-json\4.0.22\groovy-json-4.0.22.jar;C:\Users\barbara.monge\.m2\repository\io\rest-assured\rest-assured-common\5.5.0\rest-assured-common-5.5.0.jar;C:\Users\barbara.monge\.m2\repository\io\rest-assured\xml-path\5.5.0\xml-path-5.5.0.jar;C:\Users\barbara.monge\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\barbara.monge\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\barbara.monge\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\barbara.monge\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\barbara.monge\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\barbara.monge\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.17.2\jackson-databind-2.17.2.jar;C:\Users\barbara.monge\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.17.2\jackson-annotations-2.17.2.jar;C:\Users\barbara.monge\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.17.2\jackson-core-2.17.2.jar;C:\Users\barbara.monge\.m2\repository\org\projectlombok\lombok\1.18.38\lombok-1.18.38.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="America/Guatemala"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="26"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Users\barbara.monge\AppData\Roaming\Code\User\globalStorage\pleiades.java-extension-pack-jdk\java\latest\bin"/>
+    <property name="sun.java.command" value="C:\Users\barbara.monge\AppData\Local\Temp\surefire14693993146372949732\surefirebooter-20260729200528020_3.jar C:\Users\barbara.monge\AppData\Local\Temp\surefire14693993146372949732 2026-07-29T20-05-27_702-jvmRun1 surefire-20260729200528020_1tmp surefire_0-20260729200528020_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\barbara.monge\Documents\Barb\UES\SWAPI_Automation\target\test-classes;C:\Users\barbara.monge\Documents\Barb\UES\SWAPI_Automation\target\classes;C:\Users\barbara.monge\.m2\repository\io\rest-assured\rest-assured\5.5.0\rest-assured-5.5.0.jar;C:\Users\barbara.monge\.m2\repository\org\apache\groovy\groovy\4.0.22\groovy-4.0.22.jar;C:\Users\barbara.monge\.m2\repository\org\apache\groovy\groovy-xml\4.0.22\groovy-xml-4.0.22.jar;C:\Users\barbara.monge\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\barbara.monge\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\barbara.monge\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\barbara.monge\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\barbara.monge\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\barbara.monge\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\barbara.monge\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\barbara.monge\.m2\repository\io\rest-assured\json-path\5.5.0\json-path-5.5.0.jar;C:\Users\barbara.monge\.m2\repository\org\apache\groovy\groovy-json\4.0.22\groovy-json-4.0.22.jar;C:\Users\barbara.monge\.m2\repository\io\rest-assured\rest-assured-common\5.5.0\rest-assured-common-5.5.0.jar;C:\Users\barbara.monge\.m2\repository\io\rest-assured\xml-path\5.5.0\xml-path-5.5.0.jar;C:\Users\barbara.monge\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\barbara.monge\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\barbara.monge\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\barbara.monge\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\barbara.monge\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\barbara.monge\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.17.2\jackson-databind-2.17.2.jar;C:\Users\barbara.monge\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.17.2\jackson-annotations-2.17.2.jar;C:\Users\barbara.monge\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.17.2\jackson-core-2.17.2.jar;C:\Users\barbara.monge\.m2\repository\org\projectlombok\lombok\1.18.38\lombok-1.18.38.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\barbara.monge"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2026-04-21"/>
+    <property name="java.home" value="C:\Users\barbara.monge\AppData\Roaming\Code\User\globalStorage\pleiades.java-extension-pack-jdk\java\latest"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\barbara.monge\Documents\Barb\UES\SWAPI_Automation"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\barbara.monge\AppData\Local\Temp\surefire14693993146372949732\surefirebooter-20260729200528020_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="26.0.1+8"/>
+    <property name="java.net.preferIPv4Stack" value="true"/>
+    <property name="user.name" value="barbara.monge"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-26.0.1+8"/>
+    <property name="localRepository" value="C:\Users\barbara.monge\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\BARBAR~1.MON\AppData\Local\Temp\"/>
+    <property name="java.version" value="26.0.1"/>
+    <property name="user.dir" value="C:\Users\barbara.monge\Documents\Barb\UES\SWAPI_Automation"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="groups" value="negative"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Users\barbara.monge\AppData\Roaming\Code\User\globalStorage\pleiades.java-extension-pack-jdk\java\latest\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;c:\Users\barbara.monge\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;c:\Users\barbara.monge\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\copilotCli;C:\Users\barbara.monge\AppData\Roaming\Code\User\globalStorage\pleiades.java-extension-pack-jdk\gradle\latest\bin;C:\Users\barbara.monge\AppData\Roaming\Code\User\globalStorage\pleiades.java-extension-pack-jdk\maven\latest\bin;C:\Users\barbara.monge\AppData\Roaming\Code\User\globalStorage\pleiades.java-extension-pack-jdk\java\latest\bin;C:\Program Files\Microsoft\jdk-25.0.3.9\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Microsoft\jdk-25.0.3.9\bin;C:\Program Files\apache-maven-3.9.9\bin;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\barbara.monge\Downloads\allure-2.34.1\bin;C:\Program Files\PyManager\;C:\Program Files\Amazon\AWSCLIV2\;C:\Users\barbara.monge\AppData\Local\Microsoft\WindowsApps;C:\Users\barbara.monge\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\barbara.monge\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA 2025.1\bin;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2025.1\bin;;C:\Users\barbara.monge\AppData\Local\GitHubDesktop\bin;C:\Users\barbara.monge\Downloads\allure-2.34.1\bin;C:\Users\barbara.monge\AppData\Local\Python\pythoncore-3.14-64\Scripts;c:\Users\barbara.monge\.vscode\extensions\vscjava.vscode-java-debug-0.59.0\bundled\scripts\noConfigScripts;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="26.0.1+8"/>
+    <property name="stdin.encoding" value="Cp1252"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="70.0"/>
+  </properties>
+  <testcase name="delete_isRejected" classname="com.swapi.tests.VehicleTest" time="2.362">
+    <system-out><![CDATA[Request method:	DELETE
+Request method:	DELETE
+Request method:	DELETE
+Request URI:	https://swapi.info/api/vehicles/4/
+Request URI:	https://swapi.info/api/planets/1/
+Request URI:	https://swapi.info/api/starships/9/
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="post_isRejected" classname="com.swapi.tests.VehicleTest" time="1.078">
+    <failure message="POST vehicles must return 405 on a read-only API expected [405] but found [404]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: POST vehicles must return 405 on a read-only API expected [405] but found [404]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:1419)
+	at org.testng.Assert.assertEquals(Assert.java:1383)
+	at com.swapi.tests.AbstractResourceTest.post_isRejected(AbstractResourceTest.java:106)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:330)
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1516)
+]]></failure>
+  </testcase>
+  <testcase name="put_isRejected" classname="com.swapi.tests.VehicleTest" time="0.059">
+    <system-out><![CDATA[Request method:	DELETE
+Request URI:	https://swapi.info/api/people/1/
+]]></system-out>
+  </testcase>
+  <testcase name="delete_isRejected" classname="com.swapi.tests.StarshipTest" time="2.377"/>
+  <testcase name="post_isRejected" classname="com.swapi.tests.StarshipTest" time="1.077">
+    <failure message="POST starships must return 405 on a read-only API expected [405] but found [404]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: POST starships must return 405 on a read-only API expected [405] but found [404]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:1419)
+	at org.testng.Assert.assertEquals(Assert.java:1383)
+	at com.swapi.tests.AbstractResourceTest.post_isRejected(AbstractResourceTest.java:106)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:330)
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1516)
+]]></failure>
+    <system-out><![CDATA[Request method:	POST
+Request method:	POST
+Request method:	POST
+Request URI:	https://swapi.info/api/vehicles/
+Request URI:	https://swapi.info/api/starships/
+Request URI:	https://swapi.info/api/planets/
+]]></system-out>
+  </testcase>
+  <testcase name="put_isRejected" classname="com.swapi.tests.StarshipTest" time="0.477">
+    <system-out><![CDATA[Request method:	PUT
+Request URI:	https://swapi.info/api/planets/1/
+]]></system-out>
+  </testcase>
+  <testcase name="delete_isRejected" classname="com.swapi.tests.PlanetTest" time="2.377"/>
+  <testcase name="post_isRejected" classname="com.swapi.tests.PlanetTest" time="0.156">
+    <failure message="POST planets must return 405 on a read-only API expected [405] but found [404]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: POST planets must return 405 on a read-only API expected [405] but found [404]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:1419)
+	at org.testng.Assert.assertEquals(Assert.java:1383)
+	at com.swapi.tests.AbstractResourceTest.post_isRejected(AbstractResourceTest.java:106)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:330)
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1516)
+]]></failure>
+    <system-out><![CDATA[Request method:	PUT
+Request method:	PUT
+Request URI:	https://swapi.info/api/starships/9/
+Request URI:	https://swapi.info/api/vehicles/4/
+]]></system-out>
+  </testcase>
+  <testcase name="put_isRejected" classname="com.swapi.tests.PlanetTest" time="0.148">
+    <system-out><![CDATA[Request method:	DELETE
+Request URI:	https://swapi.info/api/films/1/
+]]></system-out>
+  </testcase>
+  <testcase name="delete_isRejected" classname="com.swapi.tests.PeopleTest" time="0.425">
+    <system-out><![CDATA[Request method:	DELETE
+Request URI:	https://swapi.info/api/species/1/
+]]></system-out>
+  </testcase>
+  <testcase name="post_isRejected" classname="com.swapi.tests.PeopleTest" time="0.465">
+    <failure message="POST people must return 405 on a read-only API expected [405] but found [404]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: POST people must return 405 on a read-only API expected [405] but found [404]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:1419)
+	at org.testng.Assert.assertEquals(Assert.java:1383)
+	at com.swapi.tests.AbstractResourceTest.post_isRejected(AbstractResourceTest.java:106)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:330)
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1516)
+]]></failure>
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://swapi.info/api/species/
+]]></system-out>
+  </testcase>
+  <testcase name="put_isRejected" classname="com.swapi.tests.PeopleTest" time="0.463">
+    <system-out><![CDATA[Request method:	PUT
+Request URI:	https://swapi.info/api/species/1/
+]]></system-out>
+  </testcase>
+  <testcase name="delete_isRejected" classname="com.swapi.tests.FilmTest" time="0.061">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://swapi.info/api/people/
+]]></system-out>
+  </testcase>
+  <testcase name="post_isRejected" classname="com.swapi.tests.FilmTest" time="0.068">
+    <failure message="POST films must return 405 on a read-only API expected [405] but found [404]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: POST films must return 405 on a read-only API expected [405] but found [404]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:1419)
+	at org.testng.Assert.assertEquals(Assert.java:1383)
+	at com.swapi.tests.AbstractResourceTest.post_isRejected(AbstractResourceTest.java:106)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:330)
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1516)
+]]></failure>
+    <system-out><![CDATA[Request method:	PUT
+Request URI:	https://swapi.info/api/people/1/
+]]></system-out>
+  </testcase>
+  <testcase name="put_isRejected" classname="com.swapi.tests.FilmTest" time="0.535"/>
+  <testcase name="delete_isRejected" classname="com.swapi.tests.SpeciesTest" time="0.156">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://swapi.info/api/films/
+]]></system-out>
+  </testcase>
+  <testcase name="post_isRejected" classname="com.swapi.tests.SpeciesTest" time="0.146">
+    <failure message="POST species must return 405 on a read-only API expected [405] but found [404]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: POST species must return 405 on a read-only API expected [405] but found [404]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:1419)
+	at org.testng.Assert.assertEquals(Assert.java:1383)
+	at com.swapi.tests.AbstractResourceTest.post_isRejected(AbstractResourceTest.java:106)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:330)
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1516)
+]]></failure>
+    <system-out><![CDATA[Request method:	PUT
+Request URI:	https://swapi.info/api/films/1/
+]]></system-out>
+  </testcase>
+  <testcase name="put_isRejected" classname="com.swapi.tests.SpeciesTest" time="0.709"/>
+</testsuite>

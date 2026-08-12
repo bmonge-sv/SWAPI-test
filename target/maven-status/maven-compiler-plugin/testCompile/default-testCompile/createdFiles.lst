@@ -1,0 +1,9 @@
+com\swapi\tests\PlanetTest.class
+com\swapi\tests\SpeciesTest.class
+com\swapi\tests\FilmTest.class
+com\swapi\tests\AbstractResourceTest.class
+com\swapi\tests\BaseTest.class
+com\swapi\tests\PeopleTest.class
+com\swapi\tests\SwapiProperties.class
+com\swapi\tests\StarshipTest.class
+com\swapi\tests\VehicleTest.class
